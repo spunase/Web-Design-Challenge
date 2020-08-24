@@ -2,14 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>WeatherPy</title>
+    <title>humidity</title>
 </head>
       
 <body>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
       <link rel="stylesheet" href="style.css">     
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Lattitude</a>
+        <a class="navbar-brand" href="index.html">Lattitude</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -29,7 +29,7 @@
               </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="comparison.html">Comparison<span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#">Comparison<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="data.html">Data</a>
@@ -46,20 +46,17 @@
       <div class= "row">
           <div class= "col-md-8" >
               <div class="main-box whiteback">
-                  <h1 class="display-4">Summary: Latitude Vs. X</h1>
+                  <h1 class="display-4">Humidity</h1>
                   <hr class="my-4">
                 
-                  <a target="_blank" href="Resources/assets/images/Fig1.png">
-                      <img class="img-fluid float-right float-sm-right" src="Resources/assets/images/Fig1.png" alt="Max Temperature">
+                  <a target="_blank" href="Resources/assets/images/Fig2.png">
+                      <img class="img-fluid float-right float-sm-right" src="Resources/assets/images/Fig2.png" alt="Humidiity">
                   </a>
                
-                  <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. 
-                    To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.
-                    <br><br>
-                    After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. 
-                    Factors we looked at included: temperature, cloudiness, wind speed, and humidity. 
-                    This site provides the source data and visualizations created as part of the analysis, 
-                    as well as explanations and descriptions of any trends and correlations witnessed.</p>
+                  <p>As expected, the weather becomes significantly warmer as one approaches the equator(0 Deg. Latitude).
+                      More interestingly, however, is the fact that the southern hemisphere tends to be warmer this time 
+                      of year then the northen hemisphere. This may be due to the tilt of the earth at the time of the year this data 
+                      was gathered.</p>
               </div>
           </div>
           
