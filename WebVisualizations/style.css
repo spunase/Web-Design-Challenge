@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
 
 
+body {
+  background-color:silver;
+    
+}
+
+
 
 
 
@@ -22,14 +28,6 @@
 }
 
 
-/*---Firefox Bug Fix --*/
-.carousel-item {
-  transition: -webkit-transform 0.5s ease;
-  transition: transform 0.5s ease;
-  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
-  -webkit-backface-visibility: visible;
-  backface-visibility: visible;
-}
 
 .display-4 {
 color: #7DBAB6
@@ -62,43 +60,28 @@ font: 24
     background: silver;
     cursor: pointer;
 }
-/*--- Fixed Background Image --*/
-figure {
-  position: relative;
-  width: 100%;
-  height: 60%;
-  margin: 0!important;
+.col-md-8, .col-md-4 {
+  padding:30px !important;
+  padding-top:0px !important;
 }
-.fixed-wrap {
-  clip: rect(0, auto, auto, 0);
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+.main-box {
+  padding:30px;
+  width:100%;
+  margin-top:30px;
+  min-height: 70vh;
 }
-#fixed {
-  background-image: url('img/mac.png');
-  position: fixed;
-  display: block;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-position: center center;
-  -webkit-transform: translateZ(0);
-          transform: translateZ(0);
-  will-change: transform;
+.main-box a{
+  float: left;
 }
-/*--- Bootstrap Padding Fix --*/
-[class*="col-"] {
-    padding: 1rem;
+.main-box a img{
+  width: 150px;
+  height: 150px;
+  margin-top:0px;
+  margin-right: 10px;
 }
-
-
-
-
+.whiteback {
+  background-color: white;
+}
 
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
