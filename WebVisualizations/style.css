@@ -1,44 +1,39 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+@import url('https://fonts.googleapis.com/css2?family=Literata');
+/*---Media Queries --*/
+@media (max-width: 992px) {
 
+}
+@media (max-width: 768px) {
+
+}
+@media (max-width: 576px) {
+
+}
 
 body {
   background-color:silver;
     
 }
 
-
-
-
-
-
-
-
-
-
-
-/*---Media Queries --*/
-@media (max-width: 992px) {
-
+.display-2 {
+  color: #50C7D6;
+  font-weight: bold;
+  font-size: 22px;
   }
-@media (max-width: 768px) {
-  
-}
-@media (max-width: 576px) {
-  
-}
-
-
 
 .display-4 {
-color: #7DBAB6
-}
-.navbar-brand {
-text-emphasis-color: white;
-background-color: #7DBAB6;
-font: 24
+color: #50C7D6;
+font-weight: bold;
+font-size: 44px;
 
 }
-/* includes alternating gray and white with on-hover color */
+.navbar-brand {
+color: white;
+font-weight: bold;
+font-size: 28px;
+
+}
+/* includes alternating gray and white with on-hover color data sheet*/
 
 .mystyle {
     font-size: 11pt; 
@@ -60,6 +55,9 @@ font: 24
     background: silver;
     cursor: pointer;
 }
+
+/* landing page*/
+
 .col-md-8, .col-md-4 {
   padding:30px !important;
   padding-top:0px !important;
@@ -78,6 +76,13 @@ font: 24
   height: 150px;
   margin-top:0px;
   margin-right: 10px;
+}
+
+.comparison-box {
+  padding:30px;
+  width:100%;
+  margin-top:30px;
+  min-height: 70vh;
 }
 .whiteback {
   background-color: white;
