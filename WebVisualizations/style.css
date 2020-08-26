@@ -1,14 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Literata');
-/*---Media Queries --*/
-@media (max-width: 992px) {
 
-}
-@media (max-width: 768px) {
-
-}
-@media (max-width: 576px) {
-
-}
 
 body {
   background-color:silver;
@@ -47,28 +38,6 @@ body {
     padding: 10px;
     }
 
-/* includes alternating gray and white with on-hover color data sheet*/
-
-.mystyle {
-    font-size: 11pt; 
-    font-family: Arial;
-    border-collapse: collapse; 
-    border: 1px solid silver;
-
-}
-
-.mystyle td, th {
-    padding: 5px;
-}
-
-.mystyle tr:nth-child(even) {
-    background: #E0E0E0;
-}
-
-.mystyle tr:hover {
-    background: silver;
-    cursor: pointer;
-}
 
 /* landing page*/
 
@@ -102,26 +71,22 @@ body {
   background-color: white;
 }
 
+/*---Media Queries --*/
+@media (max-width: 992px) {
 
-/*
-Extra small (xs) devices (portrait phones, less than 576px)
-No media query since this is the default in Bootstrap
+}
+@media (max-width: 768px) {
 
-Small (sm) devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
+}
+@media (max-width: 576px) {
 
-Medium (md) devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
-
-Large (lg) devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
-
-Extra (xl) large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
-*/
-
-
-
+}
+@media (max-width: 480px) {
+  .navbar-brand {  
+    padding: 10px;
+ }
+  
+}
 
 
 
