@@ -19,12 +19,23 @@ body {
   color: #50C7D6;
   font-weight: bold;
   font-size: 22px;
+  text-align: center;
+
 }
 
 .display-4 {
     color: #50C7D6;
     font-weight: bold;
     font-size: 44px;
+    
+}
+
+.navbar-nav .nav-item .nav-link {
+  color:black;
+}
+.navbar-nav .nav-itm.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+  background-color: silver;
 }
 
 .navbar-brand {
@@ -34,7 +45,8 @@ body {
     font-size: 28px;
     background-color: #50C7D6;
     padding: 10px;
-}
+    }
+
 /* includes alternating gray and white with on-hover color data sheet*/
 
 .mystyle {
@@ -89,6 +101,7 @@ body {
 .whiteback {
   background-color: white;
 }
+
 
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
