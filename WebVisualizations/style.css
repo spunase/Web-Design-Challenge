@@ -19,19 +19,21 @@ body {
   color: #50C7D6;
   font-weight: bold;
   font-size: 22px;
-  }
+}
 
 .display-4 {
-color: #50C7D6;
-font-weight: bold;
-font-size: 44px;
-
+    color: #50C7D6;
+    font-weight: bold;
+    font-size: 44px;
 }
-.navbar-brand {
-color: white;
-font-weight: bold;
-font-size: 28px;
 
+.navbar-brand {
+    color: white;
+    font-family: verdana;
+    font-weight: bold;
+    font-size: 28px;
+    background-color: #50C7D6;
+    padding: 10px;
 }
 /* includes alternating gray and white with on-hover color data sheet*/
 
