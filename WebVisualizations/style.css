@@ -60,6 +60,20 @@ body {
   margin-right: 10px;
 }
 
+/* footer on the landing page*/
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: gray;
+  color: white;
+  text-align: center;
+  border-top: 5px solid #50C7D6;
+  line-height: 30px;
+}
+
+/* comparison page*/
 .comparison-box {
   padding:60px;
   width:100%;
@@ -76,24 +90,18 @@ body {
   width: 100%;
 }
 .image-photo {
-  padding-top: 15px;
+  padding-top: 5px;
+  padding-bottom: 10px;
   width: 600px;
   height: 500px;
-  padding-left: 15px;
 }
 
-
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: gray;
-  color: white;
+/* table on the data page*/
+.table tr {
   text-align: center;
-  border-top: 5px solid #50C7D6;
-  line-height: 30px;
 }
+
+
 
 
 @media only screen and (max-width: 786px) {
