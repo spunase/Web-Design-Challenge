@@ -61,9 +61,9 @@ body {
 }
 
 .comparison-box {
-  padding:30px;
+  padding:60px;
   width:100%;
-  margin-top:30px;
+  margin-top:60px;
   min-height: 70vh;
 }
 .whiteback {
@@ -76,12 +76,38 @@ body {
   width: 100%;
 }
 .image-photo {
-  padding-top:15px;
-  width: 500px;
-  height: 400px;
+  padding-top: 15px;
+  width: 600px;
+  height: 500px;
+  padding-left: 15px;
 }
 
 
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: gray;
+  color: white;
+  text-align: center;
+  border-top: 5px solid #50C7D6;
+  line-height: 30px;
+}
 
 
+@media only screen and (max-width: 786px) {
+  body {
+    background-color: lightblue;
+  }
 
+  .whiteback {
+    background-color:lightgoldenrodyellow;
+  }
+
+  .navbar-nav .nav-itm.active .nav-link,
+  .navbar-nav .nav-item:hover .nav-link {
+  background-color:lightsteelblue;
+  }
+
+}
